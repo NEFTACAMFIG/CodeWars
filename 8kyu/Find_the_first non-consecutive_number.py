@@ -16,12 +16,12 @@
 #Can you write a solution that will return null2 for both [] and [ x ] though? (This is an empty array and one with a single number and is not 
 #tested for, but you can write your own example test. )
 
-2
-Swift, Ruby and Crystal: nil
-Haskell: Nothing
-Python, Rust, Scala: None
-Julia: nothing
-Nim: none(int) (See options)
+#2
+#Swift, Ruby and Crystal: nil
+#Haskell: Nothing
+#Python, Rust, Scala: None
+#Julia: nothing
+#Nim: none(int) (See options)
 
 #MY SOLUTION
 
