@@ -1,9 +1,9 @@
-DESCRIPTION:
-Create a function that takes a Number as its argument and returns a Chinese numeral string. You don't need to validate the input argument, it will always be a Number in the range [-99999.999, 99999.999], rounded to 8 decimal places.
+# DESCRIPTION:
+# Create a function that takes a Number as its argument and returns a Chinese numeral string. You don't need to validate the input argument, it will always be a Number in the range [-99999.999, 99999.999], rounded to 8 decimal places.
 
-Simplified Chinese numerals have characters representing each number from 0 to 9 and additional numbers representing larger numbers like 10, 100, 1000, and 10000.
+# Simplified Chinese numerals have characters representing each number from 0 to 9 and additional numbers representing larger numbers like 10, 100, 1000, and 10000.
 
-My Solution
+# My Solution
 
 def to_chinese_numeral(n):
     numerals = {"-":"负", ".":"点",
