@@ -1,46 +1,46 @@
-#DESCRIPTION:
+# DESCRIPTION:
 
-#Create a function that calculates all possible diagonals of a given (square) matrix. Diagonals must be laid out from top to bottom
+# Create a function that calculates all possible diagonals of a given (square) matrix. Diagonals must be laid out from top to bottom
 
-#Matrix = array of n length whose elements are n length arrays of integers.
+# Matrix = array of n length whose elements are n length arrays of integers.
 
-#2x2 example:
+# 2x2 example:
 
-#diagonals( [
-  [ 1, 2 ],
-  [ 3, 4 ]
-] ); 
+# diagonals( [
+#  [ 1, 2 ],
+#  [ 3, 4 ]
+# ] ); 
 
-#returns -> [ [ 1 ], [ 2, 3 ], [ 4 ], [ 2 ], [ 1, 4 ], [ 3 ] ]
+# returns -> [ [ 1 ], [ 2, 3 ], [ 4 ], [ 2 ], [ 1, 4 ], [ 3 ] ]
 
-#it is valid too -> [ [ 1, 4 ], [ 3 ], [ 2 ], [ 2 , 3 ], [ 1 ], [ 4 ] ] //Order of the returned array does not matter
+# it is valid too -> [ [ 1, 4 ], [ 3 ], [ 2 ], [ 2 , 3 ], [ 1 ], [ 4 ] ] //Order of the returned array does not matter
 
-#it is invalid -> [ [ 1 ], [ 3, 2 ], [ 4 ], [ 2 ], [ 1, 4 ], [ 3 ] ] //Order of each diagonal must be preserved
+# it is invalid -> [ [ 1 ], [ 3, 2 ], [ 4 ], [ 2 ], [ 1, 4 ], [ 3 ] ] //Order of each diagonal must be preserved
 
-#3x3 example:
+# 3x3 example:
 
-#diagonals( [
+# diagonals( [
  # [ 1, 2, 3 ],
   #[ 4, 5, 6 ],
   #[ 7, 8, 9 ]
-#] ); 
+# ] ); 
 
-#returns ->
+# returns ->
 
-#[ [ 1 ],
-#  [ 2, 4 ],
- # [ 3, 5, 7 ],
-  #[ 6, 8 ],
-  #[ 9 ],
-  #[ 3 ],
-  #[ 2, 6 ],
-  #[ 1, 5, 9 ],
-  #[ 4, 8 ],
-  #[ 7 ] ]
+# [ [ 1 ],
+#   [ 2, 4 ],
+ #  [ 3, 5, 7 ],
+  # [ 6, 8 ],
+  # [ 9 ],
+  # [ 3 ],
+  # [ 2, 6 ],
+  # [ 1, 5, 9 ],
+  # [ 4, 8 ],
+  # [ 7 ] ]
 
-#The tests verify that the implementation is efficient (1000x1000 matrix are used in tests).
+# The tests verify that the implementation is efficient (1000x1000 matrix are used in tests).
 
-#MY SOLUTION
+# MY SOLUTION
 
 import numpy as np
 def diagonals(matrix):
