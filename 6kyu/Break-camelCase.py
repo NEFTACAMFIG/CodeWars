@@ -1,14 +1,14 @@
-#DESCRIPTION:
+# DESCRIPTION:
 
-#Complete the solution so that the function will break up camel casing, using a space between words.
+# Complete the solution so that the function will break up camel casing, using a space between words.
 
-#Example
+# Example
 
-#"camelCasing"  =>  "camel Casing"
-#"identifier"   =>  "identifier"
-#""             =>  ""
+# "camelCasing"  =>  "camel Casing"
+# "identifier"   =>  "identifier"
+# ""             =>  ""
 
-#MY SOLUTION
+# MY SOLUTION
 
 def solution(s):
     x = 0
